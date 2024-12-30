@@ -1,3 +1,3 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
-document.querySelector("body").appendChild(h2);
+document.querySelector('a').addEventListener('click', function() {
+    alert('Thank you for reaching out! I will get back to you as soon as possible.');
+  });
